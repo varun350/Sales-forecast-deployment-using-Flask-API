@@ -32,6 +32,8 @@ while datetime.datetime.now() < end_time:
     # Delay for 1 second before the next print
     time.sleep(1)
 """
+
+"""
 import os
 import git
 from azureml.pipeline.core import Pipeline
@@ -85,6 +87,5 @@ pipeline = Pipeline(workspace=ws, steps=[step])
 experiment = Experiment(workspace=ws, name='default')
 run = experiment.submit(pipeline)
 run.wait_for_completion(show_output=True)
-
-
+"""
 
