@@ -1,4 +1,4 @@
-
+"""
 def is_prime(num):
     if num < 2:
         return False
@@ -15,7 +15,7 @@ for num in range(start, end + 1):
     if is_prime(num):
         print(num)
 
-        
+"""       
 """
 import datetime
 import time
@@ -35,7 +35,6 @@ while datetime.datetime.now() < end_time:
     time.sleep(1)
 
 """
-"""
+
 print("hello world........!")
 
-"""
